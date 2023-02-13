@@ -3,7 +3,7 @@ import json
 
 def sample_response(input_text):
     user_message =str(input_text).lower()
-    openai.api_key = "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"
+    openai.api_key = ""
 
     while True:
             response = openai.Completion.create(
